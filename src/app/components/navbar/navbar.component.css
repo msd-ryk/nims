@@ -1,0 +1,85 @@
+.navbar-component-container-navbar {
+    height: 60px;
+    background-color: white;
+}
+
+.navbar-component-container-navbar-title-section h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: #4267B2;
+}
+
+.nccnis-item {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+.nccnis-item::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background-color: #4267B2;
+    transition: .5s;
+}
+
+.nccnis-item:hover::after {
+    width: 100%;
+    transition: .5s;
+}
+
+.nccnis-item-contact {
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    background-color: #427cf0;
+}
+
+.nccnis-item-contact:hover {
+    background-color: #4267B2;
+}
+
+.navbar-component-container-navbar-menu-button-section i {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.navbar-component-container-side-menu {
+    border: none;
+}
+
+.navbar-component-container-side-menu-title-section {
+    height: 60px;
+}
+
+.navbar-component-container-side-menu-title-section h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: #4267B2;
+}
+
+.navbar-component-container-side-menu-title-section i {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.navbar-component-container-side-menu-nav-items {
+    margin-top: 50px;
+}
+
+@media screen and (max-width:767px) {
+    .nccnis-item::after {
+        transition: 0s;
+    }
+
+    .nccnis-item:hover::after {
+        transition: 0s;
+    }
+}

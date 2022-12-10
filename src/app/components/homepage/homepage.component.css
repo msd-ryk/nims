@@ -1,0 +1,44 @@
+.homepage-component-container-hero-section {
+    margin-top: 60px;
+}
+
+.homepage-component-container-hero-section-1 p b {
+    color: #4267B2;
+}
+
+.homepage-component-container-hero-section-1 button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #427cf0;
+}
+
+.homepage-component-container-hero-section-1 button:hover {
+    background-color: #4267B2;
+}
+
+.homepage-component-container-hero-section-2 {
+    margin: 100px 0px;
+}
+
+.homepage-component-container-hero-section-2 img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .homepage-component-container-hero-section-1 {
+        padding-top: 50px;
+    }
+
+    .homepage-component-container-hero-section-2 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .homepage-component-container-hero-section-2 img {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}

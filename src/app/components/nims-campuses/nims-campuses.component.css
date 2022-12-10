@@ -1,0 +1,24 @@
+.nims-campuses-container-pre-school {
+    margin-top: 50px;
+}
+
+.nims-campuses-container-pre-school h4 {
+    color: #4267B2;
+}
+
+.nims-campuses-container-pre-school p b {
+    color: #4267B2;
+}
+
+.nims-campuses-container-pre-school img {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .nims-campuses-container-pre-school img {
+        max-width: 100%;
+    }
+}
